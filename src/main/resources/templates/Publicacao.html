@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Preencha seu formulário</title>
+        <link rel = "stylesheet" type="text/css" href="Publicacao.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="formulario">
+            <h1>Formulário <span class="happy">:)</span></h1>
+            <form action="#" th:action="@{/Publicacao}" th:object="${Publicacao}" method="post">
+                <p>Nome: <input type="text" th:field="*{nome}" /></p>
+                <p>Idade: <input type="text" th:field="*{Idade}" /></p>
+                <input class="botao botao_style" type="submit" value="Enviar" />
+                <a href="/Publicacao"><button type="button" class="botao_style" >Reset</button></a>
+                <a href="/"><button type="button" class="botao_style">Voltar</button></a>
+            </form>
+        </div>
+    </body>
+</html>

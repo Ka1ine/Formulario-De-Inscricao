@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+    <head>
+        <title>Cadastro</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel = "stylesheet" type="text/css" href="Exibicao.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="tudo">
+            <h1>Resposta</h1>
+            <p th:text="'Nome: ' + ${publicacao.nome}" />
+            <p th:text="'Idade: ' + ${publicacao.idade}" />
+            <a href="/Publicacao"><button type="button" class=" botao botao_style" >Novo Cadastro</button></a>
+            <a href="/"><button type="button" class=" botao botao_style" >Página inicial</button></a>
+        </div>
+    </body>
+</html>

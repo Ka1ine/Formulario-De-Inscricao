@@ -1,0 +1,41 @@
+body{
+    background-color: rgba(201, 197, 238, 0.747);
+}
+h1{
+    color: rgb(48, 179, 150);
+}
+.formulario{
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Fredoka One', cursive;
+}
+input{
+    border: none;
+}
+.happy{
+    color: rgb(241, 155, 43);
+}
+
+p{
+    color: rgb(50, 50, 53);
+}
+.botao{
+    text-align: center;
+    font-family: 'Fredoka One', cursive; 
+}
+
+.botao_style{
+    background-color: #be94d1d7;
+    color: rgb(49, 45, 45);
+    border: 2px solid #be94d1d7;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+   font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 17px;
+}
+
+.botao_style:hover{
+    background-color: white;
+    color:rgba(2, 1, 2, 0.671);
+    border: 2px solid #be94d1d7;
+}
